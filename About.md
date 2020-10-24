@@ -1,8 +1,7 @@
 ---
-title: About
+layout: page
+title: About me
 ---
-
-# About me
 
 <p align="center">
   <img src="img/profile_wedding_ellipse.png" height=400>
