@@ -1,1 +1,8 @@
+# Basic options
+title: No Swim Zone
+author: Sean Tuck
+description: Website for the No Swim Zone podcast
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-midnight
