@@ -6,3 +6,5 @@ description: Website for the No Swim Zone podcast
 # Build settings
 markdown: kramdown
 theme: minima
+plugins:
+  - audioinfo
