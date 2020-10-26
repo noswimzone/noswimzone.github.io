@@ -1,13 +1,10 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
 <channel>
  	<title>No Swim Zone</title>
  	<link>https://noswimzone.github.io/</link>
  	<language>en-gb</language>
- 	<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+ 	<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
  	<copyright>Sean Tuck</copyright>
  	<itunes:subtitle>A podcast about male infertility and men's mental health</itunes:subtitle>
  	<itunes:author>Sean Tuck</itunes:author>
@@ -32,25 +29,25 @@ layout: null
  	<itunes:category text="Society &amp; Culture">
  		<itunes:category text="Personal Journals"/>
  	</itunes:category>
- 	{% for post in site.posts limit:300 %}
+ 	
  		<item>
- 			<title>{% if post.slug %}Ep {{ post.slug | xml_escape }}{% endif %}: {{post.title | xml_escape }}</title>
- 			<itunes:title>{{post.title | xml_escape }}</itunes:title>
- 			<itunes:author>{{ post.author | xml_escape }}</itunes:author>
-			<itunes:subtitle>{{ post.podcast_summary | xml_escape }}</itunes:subtitle>
- 			<itunes:summary><![CDATA[{{ post.podcast_summary | cdata_escape }}]]></itunes:summary>
- 			<description><![CDATA[{{ post.podcast_summary | cdata_escape }} <br><br><a rel="payment" href="https://noswimzone.github.io/">Visit noswimzone.github.io to see more show notes.</a>]]></description>
- 			<itunes:image href="https://noswimzone.github.io{{ post.podcast_image }}" />
- 			<enclosure url="https://noswimzone.github.io/podcasts/{{ post.podcast_file }}" length="{% filesize %}./podcasts/{{post.podcast_file}}{% endfilesize %}" type="audio/mpeg" />
- 			<itunes:duration>{% audioduration %}./podcasts/{{post.podcast_file}}{% endaudioduration %}</itunes:duration>
+ 			<title>Ep 1: Welcome to the No Swim Zone</title>
+ 			<itunes:title>Welcome to the No Swim Zone</itunes:title>
+ 			<itunes:author>Sean Tuck</itunes:author>
+			<itunes:subtitle>Episode 1! Welcome to our new podcasts, hope you like it. Helen joins me as we tell you what the podcast will be about and introduce ourselves a little.</itunes:subtitle>
+ 			<itunes:summary><![CDATA[Episode 1! Welcome to our new podcasts, hope you like it. Helen joins me as we tell you what the podcast will be about and introduce ourselves a little.]]></itunes:summary>
+ 			<description><![CDATA[Episode 1! Welcome to our new podcasts, hope you like it. Helen joins me as we tell you what the podcast will be about and introduce ourselves a little. <br><br><a rel="payment" href="https://noswimzone.github.io/">Visit noswimzone.github.io to see more show notes.</a>]]></description>
+ 			<itunes:image href="https://noswimzone.github.io/img/noswimzone_logo_20200925.png" />
+ 			<enclosure url="https://noswimzone.github.io/podcasts/ep0.mp3" length="34492137" type="audio/mpeg" />
+ 			<itunes:duration>36:33</itunes:duration>
  			<itunes:season>1</itunes:season>
- 			<itunes:episode>{% if post.slug %}{{ post.slug | xml_escape }}{% endif %}</itunes:episode>
+ 			<itunes:episode>1</itunes:episode>
  			<itunes:episodeType>full</itunes:episodeType>
  
-         	<guid isPermaLink="false">{{ site.url }}/podcasts/{{ post.podcast_file }}</guid>
-       		<pubDate>{{ post.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
- 			<itunes:explicit>{% if post.explicit %}yes{% else %}no{% endif %}</itunes:explicit>
+         	<guid isPermaLink="false">http://localhost:4000/podcasts/ep0.mp3</guid>
+       		<pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+ 			<itunes:explicit>no</itunes:explicit>
  		</item>
- 	{% endfor %}
+ 	
 </channel>
 </rss>
