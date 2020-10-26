@@ -46,9 +46,8 @@ layout: null
  			<itunes:season>1</itunes:season>
  			<itunes:episode>{% if post.slug %}{{ post.slug | xml_escape }}{% endif %}</itunes:episode>
  			<itunes:episodeType>full</itunes:episodeType>
- 
-         	<guid isPermaLink="false">{{ site.url }}/podcasts/{{ post.podcast_file }}</guid>
-       		<pubDate>{{ post.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
+         		<guid isPermaLink="false">"https://noswimzone.github.io/podcasts/{{ post.podcast_file }}"</guid>
+       			<pubDate>{{ post.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
  			<itunes:explicit>{% if post.explicit %}yes{% else %}no{% endif %}</itunes:explicit>
  		</item>
  	{% endfor %}
