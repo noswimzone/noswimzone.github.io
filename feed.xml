@@ -43,9 +43,8 @@
  			<itunes:season>1</itunes:season>
  			<itunes:episode>1</itunes:episode>
  			<itunes:episodeType>full</itunes:episodeType>
- 
-         	<guid isPermaLink="false">http://localhost:4000/podcasts/ep0.mp3</guid>
-       		<pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+         		<guid isPermaLink="false">"https://noswimzone.github.io/podcasts/ep0.mp3"</guid>
+       			<pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
  			<itunes:explicit>no</itunes:explicit>
  		</item>
  	
