@@ -8,3 +8,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - audioinfo
+
+# License config
+license: GNU GPLv3
+license_url: https://www.gnu.org/licenses/gpl-3.0.html
