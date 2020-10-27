@@ -32,7 +32,8 @@ layout: null
  	{% for post in site.posts limit:300 %}
  		<item>
  			<title>{% if post.slug %}Ep {{ post.slug | xml_escape }}{% endif %}: {{post.title | xml_escape }}</title>
- 			<itunes:title>{{post.title | xml_escape }}</itunes:title>
+ 			<link>"https://noswimzone.github.io{{ post.url }}"</link>
+			<itunes:title>{{post.title | xml_escape }}</itunes:title>
  			<itunes:author>{{ post.author | xml_escape }}</itunes:author>
 			<itunes:subtitle>{{ post.podcast_summary | xml_escape }}</itunes:subtitle>
  			<itunes:summary><![CDATA[{{ post.podcast_summary | cdata_escape }}]]></itunes:summary>
