@@ -12,6 +12,7 @@ layout: null
  	<itunes:subtitle>A podcast about male infertility and men's mental health</itunes:subtitle>
  	<itunes:author>Sean Tuck</itunes:author>
  	<itunes:summary>Follow me as I deal with my infertility and navigate infertility treatment. My wife and I share our story and the stories of others, to support men and women going through their own infertility struggles.</itunes:summary>
+	<itunes:explicit>{{ site.explicit }}</itunes:explicit>
  	<itunes:keywords>infertility, male infertility, health, mental health, fertility, men, men's issues, ivf, assisted reproduction, donor conception</itunes:keywords>
  	<description>Follow me as I deal with my infertility and my wife and I navigate infertility treatment. We share our story of male infertility and the stories of others, to support men and women going through their own infertility struggles.</description>
  	<itunes:block>yes</itunes:block>
