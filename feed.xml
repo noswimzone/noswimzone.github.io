@@ -6,7 +6,7 @@ layout: null
 <channel>
  	<title>No Swim Zone</title>
  	<link>https://noswimzone.github.io/</link>
- 	<language>en-gb</language>
+ 	<language>en</language>
  	<atom:link href="https://noswimzone.github.io/feed.xml" rel="self" type="application/rss+xml" />
  	<copyright>Sean Tuck</copyright>
  	<itunes:subtitle>A podcast about male infertility and men's mental health</itunes:subtitle>
