@@ -17,8 +17,8 @@ layout: null
  	<description>Follow me as I deal with my infertility and my wife and I navigate infertility treatment. We share our story of male infertility and the stories of others, to support men and women going through their own infertility struggles.</description>
  	<itunes:block>yes</itunes:block>
  	<itunes:owner>
- 	<itunes:name>Sean Tuck</itunes:name>
- 	<itunes:email>sean.noswimzone@gmail.com</itunes:email>
+ 		<itunes:name>Sean Tuck</itunes:name>
+ 		<itunes:email>sean.noswimzone@gmail.com</itunes:email>
  	</itunes:owner>
  	<itunes:image href="https://noswimzone.github.io/img/noswimzone_logo_20200925.png" />
  	<itunes:category text="Health &amp; Fitness">
