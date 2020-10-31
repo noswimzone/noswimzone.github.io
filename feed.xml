@@ -44,12 +44,12 @@ layout: null
 				]]>
 			</description>
  			<itunes:image href="{{ site.url }}{{ post.podcast_image }}" />
- 			<enclosure url="{{ site.url }}/podcasts/{{ post.podcast_file }}" length="{% filesize %}./podcasts/{{post.podcast_file}}{% endfilesize %}" type="audio/mpeg" />
+ 			<enclosure url="{{ post.mp3_url }}" length="{% filesize %}./podcasts/{{post.podcast_file}}{% endfilesize %}" type="audio/mpeg" />
  			<itunes:duration>{% audioduration %}./podcasts/{{post.podcast_file}}{% endaudioduration %}</itunes:duration>
  			<itunes:season>1</itunes:season>
  			<itunes:episode>{% if post.slug %}{{ post.slug | xml_escape }}{% endif %}</itunes:episode>
  			<itunes:episodeType>full</itunes:episodeType>
-         		<guid isPermaLink="false">"{{ site.url }}/podcasts/{{ post.podcast_file }}"</guid>
+         		<guid isPermaLink="false">"{{ post.mp3_url }}"</guid>
        			<pubDate>{{ post.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
  			<itunes:explicit>{% if post.explicit %}yes{% else %}no{% endif %}</itunes:explicit>
  		</item>
