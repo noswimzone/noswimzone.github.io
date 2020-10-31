@@ -11,7 +11,7 @@ Welcome to my website for the No Swim Zone, a podcast about male infertility.
 <ul>
 	{% for post in site.posts %}
 		<li>
-			<a href="{{ post.url }}">"Episode {{ post.slug }}: {{ post.title }}"</a>
+			<a href="{{ post.url }}">Episode {{ post.slug }}: {{ post.title }}</a>
 		</li>
 	{% endfor %}
 </ul>
