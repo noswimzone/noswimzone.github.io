@@ -1,6 +1,7 @@
 # Basic options
 title: No Swim Zone
 author: Sean Tuck
+email: sean.noswimzone@gmail.com
 description: Website for the No Swim Zone podcast
 
 # Build settings
@@ -15,3 +16,5 @@ license_url: https://www.gnu.org/licenses/gpl-3.0.html
 
 # Site content tags
 explicit: "no"
+url: https://noswimzone.github.io
+logo: /img/noswimzone_logo_20200925_large.png
