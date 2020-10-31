@@ -38,7 +38,11 @@ layout: null
  			<itunes:author>{{ post.author | xml_escape }}</itunes:author>
 			<itunes:subtitle>{{ post.podcast_summary | xml_escape }}</itunes:subtitle>
  			<itunes:summary><![CDATA[{{ post.podcast_summary | cdata_escape }}]]></itunes:summary>
- 			<description><![CDATA[{{ post.podcast_summary | cdata_escape }} <br><br><a rel="payment" href="{{ site.url }}">Visit noswimzone.github.io to see more show notes.</a>]]></description>
+ 			<description>
+				<![CDATA[
+					{{ post.content | cdata_escape }}
+				]]>
+			</description>
  			<itunes:image href="{{ site.url }}{{ post.podcast_image }}" />
  			<enclosure url="{{ site.url }}/podcasts/{{ post.podcast_file }}" length="{% filesize %}./podcasts/{{post.podcast_file}}{% endfilesize %}" type="audio/mpeg" />
  			<itunes:duration>{% audioduration %}./podcasts/{{post.podcast_file}}{% endaudioduration %}</itunes:duration>
