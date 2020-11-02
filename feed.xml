@@ -48,12 +48,12 @@
 				]]>
 			</description>
  			<itunes:image href="https://noswimzone.github.io/img/noswimzone_logo_20200925_large.png" />
- 			<enclosure url="https://noswimzone.github/io/podcasts/ep0.mp3" length="34492137" type="audio/mpeg" />
+ 			<enclosure url="https://noswimzone.github.io/podcasts/ep0.mp3" length="34492137" type="audio/mpeg" />
  			<itunes:duration>36:33</itunes:duration>
  			<itunes:season>1</itunes:season>
  			<itunes:episode>1</itunes:episode>
  			<itunes:episodeType>full</itunes:episodeType>
-         		<guid isPermaLink="false">"https://noswimzone.github/io/podcasts/ep0.mp3"</guid>
+         		<guid isPermaLink="false">"https://noswimzone.github.io/podcasts/ep0.mp3"</guid>
        			<pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
  			<itunes:explicit>no</itunes:explicit>
  		</item>
