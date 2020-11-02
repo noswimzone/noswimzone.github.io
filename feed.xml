@@ -37,10 +37,18 @@
  			<itunes:summary><![CDATA[Episode 1! Welcome to our new podcasts, hope you like it. Helen joins me as we tell you what the podcast will be about and introduce ourselves a little.]]></itunes:summary>
  			<description>
 				<![CDATA[
-					<p>Hope you enjoy this episode.</p>
+					<style type="text/css">
+  audio {
+    display: block;
+    margin: 20px;
+    width: 600px;
+  }
+</style>
+
+<p>Hi, hope you enjoy the episode!</p>
 
 <audio controls="">
-	<source src="" type="audio/mpeg" />
+	<source src="https://noswimzone.github.io/podcasts/ep0.mp3" type="audio/mpeg" />
 	Your browser does not support the audio element.
 </audio>
 
