@@ -18,3 +18,6 @@ license_url: https://www.gnu.org/licenses/gpl-3.0.html
 explicit: "no"
 prod_url: https://noswimzone.github.io
 logo: /img/noswimzone_logo_20200925_large.png
+
+# Formatting settings
+excerpt_separator: <!--more-->

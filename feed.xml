@@ -40,7 +40,7 @@ layout: null
  			<itunes:summary><![CDATA[{{ post.podcast_summary | cdata_escape }}]]></itunes:summary>
  			<description>
 				<![CDATA[
-					{{ post.content | cdata_escape }}
+					{{ post.excerpt | cdata_escape }}
 				]]>
 			</description>
  			<itunes:image href="{{ site.prod_url }}{{ post.podcast_image }}" />
