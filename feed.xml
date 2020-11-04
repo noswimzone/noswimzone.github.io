@@ -12,7 +12,7 @@
 	<itunes:explicit>no</itunes:explicit>
  	<itunes:keywords>infertility, male infertility, health, mental health, fertility, men, men's issues, ivf, assisted reproduction, donor conception</itunes:keywords>
  	<description>Follow me as I deal with my infertility and my wife and I navigate infertility treatment. We share our story of male infertility and the stories of others, to support men and women going through their own infertility struggles.</description>
- 	<itunes:block>yes</itunes:block>
+ 	<itunes:block>no</itunes:block>
  	<itunes:owner>
  		<itunes:name>Sean Tuck</itunes:name>
  		<itunes:email>sean.noswimzone@gmail.com</itunes:email>
@@ -30,27 +30,16 @@
  	
  		<item>
  			<title>Ep 1: Welcome to the No Swim Zone</title>
- 			<link>"https://noswimzone.github.io/2020/10/26/1.html"</link>
+ 			<link>"https://noswimzone.github.io/2020/11/04/1.html"</link>
 			<itunes:title>Welcome to the No Swim Zone</itunes:title>
  			<itunes:author>Sean Tuck</itunes:author>
 			<itunes:subtitle>Episode 1! Welcome to our new podcasts, hope you like it. Helen joins me as we tell you what the podcast will be about and introduce ourselves a little.</itunes:subtitle>
  			<itunes:summary><![CDATA[Episode 1! Welcome to our new podcasts, hope you like it. Helen joins me as we tell you what the podcast will be about and introduce ourselves a little.]]></itunes:summary>
  			<description>
 				<![CDATA[
-					<style type="text/css">
-  audio {
-    display: block;
-    margin: 20px;
-    width: 600px;
-  }
-</style>
+					<p>Hi, hope you enjoy the episode! This week we talked about what the podcast will be about, how me and Helen met, and why we started trying for a baby.</p>
 
-<p>Hi, hope you enjoy the episode!</p>
-
-<audio controls="">
-	<source src="https://noswimzone.github.io/podcasts/ep0.mp3" type="audio/mpeg" />
-	Your browser does not support the audio element.
-</audio>
+<p>If you want to chat you can reach me at <a href="mailto:sean.noswimzone@gmail.com">sean.noswimzone@gmail.com</a> or <a href="https://www.instagram.com/no_swim_zone/">@no_swim_zone</a> on Instagram.</p>
 
 
 				]]>
@@ -62,7 +51,7 @@
  			<itunes:episode>1</itunes:episode>
  			<itunes:episodeType>full</itunes:episodeType>
          		<guid isPermaLink="false">"https://noswimzone.github.io/podcasts/ep0.mp3"</guid>
-       			<pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+       			<pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
  			<itunes:explicit>no</itunes:explicit>
  		</item>
  	
