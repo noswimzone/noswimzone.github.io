@@ -15,7 +15,6 @@ layout: null
 	<itunes:explicit>{{ site.explicit }}</itunes:explicit>
  	<itunes:keywords>infertility, male infertility, health, mental health, fertility, men, men's issues, ivf, assisted reproduction, donor conception</itunes:keywords>
  	<description>Follow me as I deal with my infertility and my wife and I navigate infertility treatment. We share our story of male infertility and the stories of others, to support men and women going through their own infertility struggles.</description>
- 	<itunes:block>no</itunes:block>
  	<itunes:owner>
  		<itunes:name>{{ site.author }}</itunes:name>
  		<itunes:email>{{ site.email }}</itunes:email>
