@@ -16,6 +16,10 @@ Welcome to my website for the No Swim Zone, a podcast about male infertility.
 	{% endfor %}
 </ul>
 
-Read [about me](About.html) to find out why I started a podcast.
+Read [about me](About.html) to find out why I started a podcast.<br><br>
 
-[![RSS Feed](/img/rss_black.png)](https://noswimzone.github.io/feed.xml)
+<p align="right">
+  <a href="https://noswimzone.github.io/feed.xml">
+    <img src="img/rss_black.png" alt="RSS Feed" style="width:35px;height=35px;margin:0px" />
+  </a>
+</p>
