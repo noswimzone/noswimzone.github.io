@@ -17,3 +17,5 @@ Welcome to my website for the No Swim Zone, a podcast about male infertility.
 </ul>
 
 Read [about me](About.html) to find out why I started a podcast.
+
+[![RSS Feed](/img/rss_black.png)](https://noswimzone.github.io/feed.xml)
