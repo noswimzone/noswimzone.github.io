@@ -28,6 +28,33 @@
  	</itunes:category>
  	
  		<item>
+ 			<title>Ep 2: Life Kicks Me In The Balls</title>
+ 			<link>"https://noswimzone.github.io/2021/01/23/2.html"</link>
+			<itunes:title>Life Kicks Me In The Balls</itunes:title>
+ 			<itunes:author>Sean Tuck</itunes:author>
+			<itunes:subtitle>In episode two we dive into the nitty gritty of our infertility story. It starts with us seeking help and the rollercoaster that followed, which left us with big decisions about very few options.</itunes:subtitle>
+ 			<itunes:summary><![CDATA[In episode two we dive into the nitty gritty of our infertility story. It starts with us seeking help and the rollercoaster that followed, which left us with big decisions about very few options.]]></itunes:summary>
+ 			<description>
+				<![CDATA[
+					<p>In episode two we dive into the nitty gritty of our infertility story. It starts with us seeking help and the rollercoaster that followed, which left us with big decisions about very few options.</p>
+
+<p>If you want to chat you can reach me at <a href="mailto:sean.noswimzone@gmail.com">sean.noswimzone@gmail.com</a> or <a href="https://www.instagram.com/no_swim_zone/">@no_swim_zone</a> on Instagram.</p>
+
+
+				]]>
+			</description>
+ 			<itunes:image href="https://noswimzone.github.io/img/noswimzone_logo_20200925_large.png" />
+ 			<enclosure url="https://dts.podtrac.com/redirect.mp3/noswimzone.github.io/podcasts/ep1.mp3" length="54752427" type="audio/mpeg" />
+ 			<itunes:duration>58:35</itunes:duration>
+ 			<itunes:season>1</itunes:season>
+ 			<itunes:episode>2</itunes:episode>
+ 			<itunes:episodeType>full</itunes:episodeType>
+         		<guid isPermaLink="false">"https://noswimzone.github.io/podcasts/ep1.mp3"</guid>
+       			<pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+ 			<itunes:explicit>no</itunes:explicit>
+ 		</item>
+ 	
+ 		<item>
  			<title>Ep 1: Welcome to the No Swim Zone</title>
  			<link>"https://noswimzone.github.io/2020/11/04/1.html"</link>
 			<itunes:title>Welcome to the No Swim Zone</itunes:title>
